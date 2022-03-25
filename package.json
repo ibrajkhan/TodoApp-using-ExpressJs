@@ -1,0 +1,20 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "Todo app using ExpressJs and mongodb",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ibraj khan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.15"
+  }
+}
